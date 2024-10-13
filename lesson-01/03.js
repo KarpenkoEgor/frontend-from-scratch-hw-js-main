@@ -11,10 +11,13 @@ let nech = count
 while(count < 20){
 count += 1
 nech = count % 2
-if(nech){
-  sum += count
+if(nech === 1){
+sum += count
   console.log(count, nech, sum)
 }
 
+//  
 }
+
+
 
