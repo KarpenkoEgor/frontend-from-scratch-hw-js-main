@@ -12,14 +12,9 @@ let dice2
 let isWinningDouble = false;
  // your code
 
-
-while(!isWinningDouble){
-  // dice1 = keyWordsOne[randomOne];
-  // dice2 = keyWordsTwo[randomTwo];
-      // keyWordsOne 
-      // keyWordsTwo 
-  dice1 = Math.floor(Math.random() * 6) + 1;
-  dice2 = Math.floor(Math.random() * 6) + 1;
+while(!isWinningDouble){ 
+  dice1 = Math.ceil(Math.random() * 6);
+  dice2 = Math.ceil(Math.random() * 6);
   console.log('Первый бросок: ' + dice1);
   console.log('Первый бросок: ' + dice2); 
 if((dice1 === 3 && dice2 === 3)||
