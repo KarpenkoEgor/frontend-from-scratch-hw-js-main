@@ -16,10 +16,13 @@ const hasTemporaryPass = false
 let isAccess
 let user
 
-    if (user = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)){
+    if (user === (!isAdmin || !hasTemporaryPass) && (hasSpecialPermission || isVerifiedUser)) {
     alert(user)
     console.log(user)
     isAccess = true
+    } 
+    else{
+        alert("Нет доступа!")
     }
 
 // your code
