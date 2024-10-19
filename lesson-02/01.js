@@ -15,11 +15,11 @@ const hasTemporaryPass = false
 
 let isAccess
 let user
-while(!isAccess){
+
     if (user = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)){
     alert(user)
     console.log(user)
     isAccess = true
     }
-}
+
 // your code
