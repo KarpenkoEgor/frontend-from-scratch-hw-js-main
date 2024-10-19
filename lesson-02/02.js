@@ -21,11 +21,11 @@ while(!isWinningDouble){
   dice2 = keyWordsTwo[randomTwo];
   console.log('ПЕРВЫЙ бросок: ' + dice2);
   alert(dice1);
-  alert(dice2); 
+  alert(dice2) 
 if((dice1 === keyWordsOne[2] && dice2 === keyWordsTwo[2])||
 (dice1 === keyWordsOne[3] && dice2 === keyWordsTwo[3])||
 (dice1 === keyWordsOne[4] && dice2 === keyWordsTwo[4])||
-(dice1 === keyWordsOne[5] && dice2 === keyWordsTwo[5]));
+(dice1 === keyWordsOne[5] && dice2 === keyWordsTwo[5]))
 {
   isWinningDouble = true;
   alert('Выигрышный дубль!');
