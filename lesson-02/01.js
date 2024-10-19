@@ -13,10 +13,10 @@ const isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = false
 
-let isAccess = true
+let isAccess
 let user
 
-    if( (user === !isAdmin || user === isVerifiedUser ) && 
+    if( (user === isAdmin || user === isVerifiedUser ) && 
     (user === hasSpecialPermission  || user === hasTemporaryPass ) );
     {
     alert("Вы имеете доступ!")
