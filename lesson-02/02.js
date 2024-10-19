@@ -14,8 +14,8 @@ const keyWordsOne = ["1", "2", "3", "4", "5", "6"];
 const keyWordsTwo = ["1", "2", "3", "4", "5", "6"];
 
 while(!isWinningDouble){
-  const randomOne = Math.floor(Math.random() * 6) + 1;
-  const randomTwo = Math.floor(Math.random(1) * 6) + 1;
+  const randomOne = Math.floor(Math.random() * (6 - 1) + 1);
+  const randomTwo = Math.floor(Math.random() * (6 - 1) + 1);
   dice1 = keyWordsOne[randomOne];
   console.log('Первый бросок: ' + dice1);
   dice2 = keyWordsTwo[randomTwo];
