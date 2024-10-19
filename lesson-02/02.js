@@ -22,7 +22,7 @@ if((dice1 === 3 && dice2 === 3)||
 (dice1 === 6 && dice2 === 6))
 {
   isWinningDouble = true;
-  alert('Выигрышный дубль!');
+  // alert('Выигрышный дубль!');
   console.log('Выигрышный дубль!');
 } else {
   console.log('Не выигрышный дубль.')
