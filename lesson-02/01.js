@@ -13,13 +13,11 @@ const isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = false
 
-let isAccess = true
+let isAccess = false
 let user
-while(isAccess){
-    if( (user === isAdmin || user === isVerifiedUser ) && 
-    (user === hasSpecialPermission  || user === hasTemporaryPass ) );
-    {
-    alert("Вы имеете доступ!")
-    }
-    }
+
+    // user = prompt("Подтверди доступ")
+    // if( (user === isAdmin || user === isVerifiedUser ) && 
+    // (user === hasSpecialPermission || user === hasTemporaryPass ) );
+
 // your code

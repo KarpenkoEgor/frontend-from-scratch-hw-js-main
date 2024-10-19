@@ -7,16 +7,41 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 // your code
-let dice2 // your code
-let isWinningDouble // your code
+let dice1 
+let dice2 
+let isWinningDouble = false // your code
+const keyWordsOne = ["1", "2", "3", "4", "5", "6"]
+const keyWordsTwo = ["1", "2", "3", "4", "5", "6"]
 
-/*
-console.log('Первый бросок: ' + dice1)
-console.log('Второй бросок: ' + dice2)
-if (isWinningDouble) {
+while(!isWinningDouble){
+  const randomOne = Math.floor(Math.random() * 6);
+  const randomTwo = Math.floor(Math.random() * 6);
+  dice1 = keyWordsOne[randomOne]
+  console.log('Первый бросок: ' + dice1)
+  dice2 = keyWordsTwo[randomTwo]
+  console.log('ПЕРВЫЙ бросок: ' + dice2)
+  alert(dice1, dice2) 
+if((dice1 === keyWordsOne[2] && dice2 === keyWordsTwo[2])||
+(dice1 === keyWordsOne[3] && dice2 === keyWordsTwo[3])||
+(dice1 === keyWordsOne[4] && dice2 === keyWordsTwo[4])||
+(dice1 === keyWordsOne[5] && dice2 === keyWordsTwo[5]))
+{
+  isWinningDouble = true
+  alert('Выигрышный дубль!')
   console.log('Выигрышный дубль!')
 } else {
   console.log('Не выигрышный дубль.')
 }
+
+//  
+} 
+
+/*
+console.log('Первый бросок: ' + dice1)
+console.log('Первый бросок: ' + dice1)
+if (isWinningDouble) {
+  console.log('Выигрышный дубль!')
+} else {
+  console.log('Не выигрышный дубль.')
+// }
 */
