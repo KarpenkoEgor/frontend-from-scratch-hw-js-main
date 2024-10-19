@@ -7,25 +7,25 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 = ["1", "2", "3", "4", "5", "6"] 
-let dice2 = ["1", "2", "3", "4", "5", "6"]
-let isWinningDouble = false; // your code
-const keyWordsOne = ["1", "2", "3", "4", "5", "6"];
-const keyWordsTwo = ["1", "2", "3", "4", "5", "6"];
+let dice1 
+let dice2 
+let isWinningDouble = false;
+ // your code
+
 
 while(!isWinningDouble){
-  const randomOne = Math.floor(Math.random() * 6) + 1;
-  const randomTwo = Math.floor(Math.random() * 6) + 1;
-  dice1 = keyWordsOne[randomOne];
+  // dice1 = keyWordsOne[randomOne];
+  // dice2 = keyWordsTwo[randomTwo];
+      // keyWordsOne 
+      // keyWordsTwo 
+  dice1 = Math.floor(Math.random() * 6) + 1;
+  dice2 = Math.floor(Math.random() * 6) + 1;
   console.log('Первый бросок: ' + dice1);
-  dice2 = keyWordsTwo[randomTwo];
-  console.log('ПЕРВЫЙ бросок: ' + dice2);
-  alert(dice1);
-  alert(dice2) 
-if((dice1 === keyWordsOne[3] && dice2 === keyWordsTwo[3])||
-(dice1 === keyWordsOne[4] && dice2 === keyWordsTwo[4])||
-(dice1 === keyWordsOne[5] && dice2 === keyWordsTwo[5])||
-(dice1 === keyWordsOne[6] && dice2 === keyWordsTwo[6]))
+  console.log('Первый бросок: ' + dice2); 
+if((dice1 === 3 && dice2 === 3)||
+(dice1 === 4 && dice2 === 4)||
+(dice1 === 5 && dice2 === 5)||
+(dice1 === 6 && dice2 === 6))
 {
   isWinningDouble = true;
   alert('Выигрышный дубль!');
