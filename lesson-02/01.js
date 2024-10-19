@@ -20,6 +20,7 @@ let isAccess
         } 
         else {
             alert("Вранье")
+            isAccess = false
         }
         
 
