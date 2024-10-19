@@ -10,15 +10,15 @@ let grade = ['A', 'B', 'C', 'D', 'F']
 
 score = +prompt("Напишите ваш балл");
 if(score >= 0 && score <= 49){
-alert(`Ваша оценка: ${grade[4]}`);
+    console.log(`Ваша оценка: ${grade[4]}`);
 } else if(score >= 50 && score <= 69){
-    alert(`Ваша оценка: ${grade[3]}`);
+    console.log(`Ваша оценка: ${grade[3]}`);
 } else if(score >= 70 && score <= 79){
-    alert(`Ваша оценка: ${grade[2]}`);
+    console.log(`Ваша оценка: ${grade[2]}`);
 } else if(score >= 80 && score <= 89){
-    alert(`Ваша оценка: ${grade[1]}`);
+    console.log(`Ваша оценка: ${grade[1]}`);
 } else if(score >= 90 && score <= 100){
-    alert(`Ваша оценка: ${grade[0]}`);
+    console.log(`Ваша оценка: ${grade[0]}`);
 } else{
-    alert("Введите корректное значение");
+    console.log('Введите корректные значения')
 }
