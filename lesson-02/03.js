@@ -4,6 +4,23 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 70 // тестовое значение, можно изменять
-let grade
+let score  // тестовое значение, можно изменять
+let grade = false
 // your code
+while(!grade){
+    score = prompt("Напишите ваш балл");
+if(score >= 0 && score <= 49){
+alert("Ваша оценка: " + "F");
+} else if(score >= 50 && score <= 69){
+    alert("Ваша оценка: " + "D");
+} else if(score >= 70 && score <= 79){
+    alert("Ваша оценка: " + "C");
+} else if(score >= 80 && score <= 89){
+    alert("Ваша оценка: " + "B");
+} else if(score >= 90 && score <= 100){
+    alert("Ваша оценка: " + "A");
+grade = true
+} else{
+    alert("Введите корректное значение");
+}
+}
