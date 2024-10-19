@@ -16,8 +16,4 @@ const hasTemporaryPass = false
 let isAccess = false
 let user
 
-    // user = prompt("Подтверди доступ")
-    // if( (user === isAdmin || user === isVerifiedUser ) && 
-    // (user === hasSpecialPermission || user === hasTemporaryPass ) );
-
 // your code
