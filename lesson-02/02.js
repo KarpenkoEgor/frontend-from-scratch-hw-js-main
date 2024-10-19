@@ -7,8 +7,8 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 = 1; 
-let dice2 = 1;
+let dice1 = ["1", "2", "3", "4", "5", "6"] 
+let dice2 = ["1", "2", "3", "4", "5", "6"]
 let isWinningDouble = false; // your code
 const keyWordsOne = ["1", "2", "3", "4", "5", "6"];
 const keyWordsTwo = ["1", "2", "3", "4", "5", "6"];
