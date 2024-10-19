@@ -5,13 +5,13 @@
   Например, факториал числа 3 это 1 * 2 * 3 (6).
 */
 
-let factorial = 3628800;
-let count = 1;
-let proizv = 1;
+// let factorial = 3628800;
+// let count = 1;
+// let proizv = 1;
 
-while(count < 10){
-  count = count + 1
-  proizv = proizv * count 
-console.log(proizv, count)
-}
-// your code
+// while(count < 10){
+//   count = count + 1
+//   proizv = proizv * count 
+// console.log(proizv, count)
+// }
+// // your code

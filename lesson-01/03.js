@@ -5,19 +5,14 @@
 */
 
 // your code
-let sum = 0
-let count = 0
-let nech = count
-while(count < 20){
-count += 1
-nech = count % 2
-if(nech === 1){
-sum += count
-  console.log(count, nech, sum)
-}
-
-//  
-}
-
-
-
+// let sum =0
+// let count =0
+// let nech =count
+// while(count < 20){
+// count = count + 1;
+// nech = count % 2;
+// if (nech === 1){
+//   sum = sum + count
+// console.log(count, nech, sum)
+// }
+// }

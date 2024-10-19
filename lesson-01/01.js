@@ -10,13 +10,13 @@
 //     count = count + 1
 // }
 
-let sum = 210
-let s = 1
-let count = 1
+// let sum = 210
+// let s = 1
+// let count = 1
 
-while(count < 20){
-count += 1
-s += count
-console.log(s)
-}
+// while(count < 20){
+// count += 1
+// s += count       
+// console.log(s)
+// }
 
