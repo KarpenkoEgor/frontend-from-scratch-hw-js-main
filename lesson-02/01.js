@@ -13,12 +13,12 @@
 // const hasSpecialPermission = true
 // const hasTemporaryPass = false
 
-// let isAccess 
+// let isAccess ;
+
 //         if((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass) ){
 //             alert("Истина!")
 //             isAccess = true
-//         } 
-//         else {
+//         }  else {
 //             alert("Вранье")
 //             isAccess = false
 //         }

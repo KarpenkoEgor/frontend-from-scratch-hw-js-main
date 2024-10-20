@@ -16,12 +16,11 @@
 //   let dice2 = Math.ceil(Math.random() * 6);
 //   console.log('Первый бросок: ' + dice1);
 //   console.log('Первый бросок: ' + dice2); 
-// if(isWinningDouble = (dice1 === 3 && dice2 === 3)||
+// if((dice1 === 3 && dice2 === 3)||
 // (dice1 === 4 && dice2 === 4)||
 // (dice1 === 5 && dice2 === 5)||
 // (dice1 === 6 && dice2 === 6)){
-//   alert('Выигрышный дубль!');
-//   console.log('Выигрышный дубль!');
+//  isWinningDouble=true
 // } else {
 //   console.log('Не выигрышный дубль.')
 // }
