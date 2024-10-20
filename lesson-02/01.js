@@ -8,20 +8,20 @@
 */
 
 // тестовые данные (значения можно менять)
-const isAdmin = true
-const isVerifiedUser = false
-const hasSpecialPermission = true
-const hasTemporaryPass = false
+// const isAdmin = true
+// const isVerifiedUser = false
+// const hasSpecialPermission = true
+// const hasTemporaryPass = false
 
-let isAccess 
-        if((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass) ){
-            alert("Истина!")
-            isAccess = true
-        } 
-        else {
-            alert("Вранье")
-            isAccess = false
-        }
+// let isAccess 
+//         if((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass) ){
+//             alert("Истина!")
+//             isAccess = true
+//         } 
+//         else {
+//             alert("Вранье")
+//             isAccess = false
+//         }
         
 
 // your code
