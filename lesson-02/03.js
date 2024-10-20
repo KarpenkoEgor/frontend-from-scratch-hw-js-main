@@ -5,21 +5,20 @@
  */
 
 let score;  // тестовое значение, можно изменять
-let grade ;
+let grade = ['F', 'D', 'C', 'B', 'A']
 // your code
 
-score = prompt("Напишите ваш балл");
+score = +prompt("Напишите ваш балл");
 if(score >= 0 && score <= 49){
-    grade = 'F';
-    console.log("Ваша оценка")
+    grade = grade[0];
 } else if(score >= 50 && score <= 69){
-    grade = 'D';
+    grade = grade[1];
 } else if(score >= 70 && score <= 79){
-    grade = 'C';
+    grade = grade[2];
 } else if(score >= 80 && score <= 89){
-    grade = 'B';
+    grade = grade[3];
 } else if(score >= 90 && score <= 100){
-    grade = 'A';
+    grade = grade[4];
 } else{
     console.log('Введите корректные значения')
 }
