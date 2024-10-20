@@ -10,7 +10,7 @@ let grade ;
 
 score = +prompt("Напишите ваш балл");
 if(score >= 0 && score <= 49){
-    grade = 'F'
+    grade = 'F';
 } else if(score >= 50 && score <= 69){
     grade = 'D';
 } else if(score >= 70 && score <= 79){
