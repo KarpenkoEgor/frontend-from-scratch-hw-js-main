@@ -8,9 +8,10 @@ let score;  // тестовое значение, можно изменять
 let grade ;
 // your code
 
-score = +prompt("Напишите ваш балл");
+score = prompt("Напишите ваш балл");
 if(score >= 0 && score <= 49){
     grade = 'F';
+    console.log("Ваша оценка")
 } else if(score >= 50 && score <= 69){
     grade = 'D';
 } else if(score >= 70 && score <= 79){
