@@ -12,8 +12,8 @@ let isWinningDouble = false;
  // your code
 
 while(!isWinningDouble){ 
-  let dice1 = Math.ceil(Math.random() * 6);
-  let dice2 = Math.ceil(Math.random() * 6);
+  dice1 = Math.ceil(Math.random() * 6);
+  dice2 = Math.ceil(Math.random() * 6);
   console.log('Первый бросок: ' + dice1);
   console.log('Первый бросок: ' + dice2); 
 if((dice1 > 3 && dice2 > 3) && (dice1 <= 6 && dice2 <= 6) && (dice1 === dice2)){
