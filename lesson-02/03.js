@@ -7,8 +7,6 @@
 let score    // тестовое значение, можно изменять
 let grade;
 // your code
-
-score = +prompt("Напишите ваш балл");
 if((score >= 0) && (score <= 49)){
     grade = 'F';
 } else if((score >= 50) && (score <= 69)){
