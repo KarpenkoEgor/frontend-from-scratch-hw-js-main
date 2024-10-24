@@ -6,23 +6,24 @@
 
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
-let dice1 
-let dice2
-let isWinningDouble = false;
- // your code
+// let dice1 
+// let dice2
+// let isWinningDouble = false;
+//  // your code
 
-while(!isWinningDouble){ 
-  dice1 = Math.ceil(Math.random() * 6);
-  dice2 = Math.ceil(Math.random() * 6);
-  console.log('Первый бросок: ' + dice1);
-  console.log('Первый бросок: ' + dice2); 
-if((dice1 > 3 && dice2 > 3) && (dice1 === dice2)){
-  console.log('выигрышный дубль.')
-isWinningDouble = true
-} else {
-  console.log('Не выигрышный дубль.')
-}//  
-} 
+// while(!isWinningDouble){ 
+//   dice1 = Math.ceil(Math.random() * 6);
+//   dice2 = Math.ceil(Math.random() * 6);
+//   console.log('Первый бросок: ' + dice1);
+//   console.log('Первый бросок: ' + dice2); 
+// if((dice1 > 3 && dice2 > 3) && (dice1 === dice2))
+//   {
+//   console.log('выигрышный дубль.')
+// isWinningDouble = true
+// } else {
+//   console.log('Не выигрышный дубль.')
+// }//  
+// } 
 
 /*
 console.log('Первый бросок: ' + dice1)
