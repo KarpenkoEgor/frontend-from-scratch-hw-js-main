@@ -5,7 +5,7 @@ let b = 20;
 function calculateAverage(one, two){
     return (one + two) / 2
 }
- calculateAverage(10, 20)
+calculateAverage(10, 20)
 
 
 
