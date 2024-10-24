@@ -1,10 +1,10 @@
 // Разработайте функцию findLargest, которая принимает три числа и возвращает наибольшее из них.
-let number1 = 1;
-let number2 = 2;
-let number3 = 3;
-function findLargest(one, two, free) {
-    if(free > two && free > one){
-        return free
+let a = 1;
+let b = 2;
+let c = 3;
+function findLargest(a, b, c) {
+    if(c > b && c > a){
+        return c
     }
 }
 findLargest(1, 2, 3)
