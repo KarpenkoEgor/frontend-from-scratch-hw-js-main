@@ -14,17 +14,19 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 let array = [1, 2, 3]
 function includesElement(array, element) {
-    const getTrue = []
     for(let i = 0; i < array.length; i++){
-        element = array[1]
-        if(array[1] === element){
-            getTrue.push[i]
-            console.log(`true`);
+        if(array[i] === element){
+            element = `true`
+            
+            
+            
+            // console.log(`true`);
             
         } else{
-            console.log(`false`);
+            element = `false`
+            // console.log(`false`);
         }
-    } return getTrue
+    } return element
 }
 
 console.log(includesElement([1, 2, 3], 2))
