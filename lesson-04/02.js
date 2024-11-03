@@ -16,12 +16,12 @@
 */
 
 
-let arrayNew = [1,2,3,5,2,2,4]
+let arrayNew = [1,2,3,4,5,2,2,4,5]
 function findUniqueElements(array) {
     let fdf = []
     for (let i = 0; i < array.length; i++) {
         if(array[i] === arrayNew[i]){
-            arrayNew.splice(3)
+            arrayNew.splice(5)
             fdf.push(arrayNew[i])
             
         }
