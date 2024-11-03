@@ -28,6 +28,7 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 // let array = [1, 2, 3]
 let arrayS = [1, 2, 3]
 function includesElement(array, element){
+
     for(let i = 0; i < array.length; i++){
         if(arrayS.includes(element)){
             const getTrue = array.includes(element)
@@ -37,3 +38,4 @@ function includesElement(array, element){
 }
 
 console.log(includesElement([1, 2, 3], 1))
+const fdfdf = includesElement(arrayS)

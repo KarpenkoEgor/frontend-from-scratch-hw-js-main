@@ -21,7 +21,7 @@ function findUniqueElements(array) {
     let fdf = []
     for (let i = 0; i < array.length; i++) {
         if(array[i] === arrayNew[i]){
-            arrayNew = arrayS
+            arrayNew.splice(3)
             fdf.push(arrayNew[i])
             
         }
