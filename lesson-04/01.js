@@ -12,16 +12,28 @@
 Пример использования:
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
-let array = [1, 2, 3]
+// let array = [1, 2, 3]
 
 
-function includesElement(array, element) {
-    for(let i = 0; i < array.length; i++){
-        if(array[i] === element){
-            return true
-        }
+// function includesElement(array, element) {
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] === element){
+//             return true
+//         }
     
+// }return false
+// }
+// console.log(includesElement([1, 2, 3], 3))
+
+// let array = [1, 2, 3]
+let arrayS = [1, 2, 3]
+function includesElement(array, element){
+    for(let i = 0; i < array.length; i++){
+        if(arrayS.includes(element)){
+            const getTrue = array.includes(element)
+            return getTrue
+        }
 }return false
 }
-console.log(includesElement([1, 2, 3], 3))
 
+console.log(includesElement([1, 2, 3], 1))
