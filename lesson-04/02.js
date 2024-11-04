@@ -16,18 +16,18 @@
 */
 
 
-let arrayNew = [1,2,3,4,5,2,2,4,5]
+
+
+
 function findUniqueElements(array) {
-    let fdf = []
-    for (let i = 0; i < array.length; i++) {
-        if(array[i] === arrayNew[i]){
-            arrayNew.splice(5)
-            fdf.push(arrayNew[i])
-            
-        }
-    }return fdf
-    } console.log(findUniqueElements(arrayNew));
+    const dcsd = []
+for (let i = 0; i < array.length; i++) {
+    if(!includesElement(dcsd, array[i])){
+        dcsd.push(array[i])
+    }
+    
+}
+return dcsd
+}
 
-
-// const fdf = includesElement([1, 2, 3])
-// console.log(findUniqueElements(arrayNew))
+console.log(findUniqueElements([1,2,3,4,5,2,2,4,5]))
