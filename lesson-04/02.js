@@ -19,15 +19,47 @@
 
 
 
-function findUniqueElements(array) {
-    const dcsd = []
-for (let i = 0; i < array.length; i++) {
-    if(!includesElement(dcsd, array[i])){
-        dcsd.push(array[i])
-    }
+// function findUniqueElements(array) {
+//     const dcsd = []
+// for (let i = 0; i < array.length; i++) {
+//     if(!includesElement(dcsd, array[i])){
+//         dcsd.push(array[i])
+//     }
     
-}
-return dcsd
-}
+// }
+// return dcsd
+// }
 
-console.log(findUniqueElements([1,2,3,4,5,2,2,4,5]))
+// console.log(findUniqueElements([1,2,3,4,5,2,2,4,5]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
