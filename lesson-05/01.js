@@ -10,32 +10,26 @@
 3. Если ресурс существует, метод должен добавлять значение `amount` к текущему количеству этого ресурса в объекте.
 */
 
-// const game = {
-//   resources: {
-//     gold: 250,
-//     lumber: 100,
-//   },
-//   addResource() {}
-// }
 
 
-// let game = {
-//   resources: {
-//     gold: 250,
-//     lumber: 100,
-//   },
-//   addResource(resource, amount) {
-//     let resources = game.resources
-//     for (const key in resources) {
-//       if(key === resources){
-//         resource[key] += amount
-//         return resource[key]
-//       }
-//     } 
-//         return "Invalid resource"
-//       }
-//  }
+let game = {
+  resources: {
+    gold: 250,
+    'lumber': 100,
+  },
+  addResource(resource, amount) {
+    for (const key in game.resources) {
+      if(resource === key){
+        game.resources[key] += amount
+        return game.resources[key]
+      } else {
+        return "Invalid resource"
+      }
+}
+  }
+}
+console.log(game.addResource('lumber', 67));
+console.log(game);
 
-// console.log(game.addResource("lumber", 67));
 
 
