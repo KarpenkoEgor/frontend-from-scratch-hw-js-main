@@ -17,17 +17,15 @@ let game = {
     gold: 250,
     'lumber': 100,
   },
-  addResource(resource, amount) {
-    for (const key in game.resources) {
-      if(resource === key){
-        game.resources[key] += amount
-        return game.resources[key]
+  addResource(resource, amount) { 
+      if(resource in game.resources){
+        game.resources[resource] += amount
+        return game.resources[resource]
       } else {
         return "Invalid resource"
       }
 }
   }
-}
 console.log(game.addResource('lumber', 67));
 console.log(game);
 

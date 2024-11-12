@@ -36,14 +36,13 @@ const gallery = {
 }
 
 function updateGallery(objectGallery, nameObject, newZnachenie) {
-for (const key in gallery) {
-  if (key === nameObject){
-    gallery[key] =  newZnachenie
-    return gallery[key]
+
+  if (nameObject in gallery){
+    gallery[nameObject] =  newZnachenie
+    return gallery[nameObject]
   } else {
     objectGallery[nameObject] = newZnachenie
   }return objectGallery[nameObject]
-}
 }
 
 console.log(updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506'));
