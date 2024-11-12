@@ -29,22 +29,22 @@ console.log(gallery)
 }
 */
 
-const gallery = {
-  'Mona Lisa': 'Leonardo da Vinci',
-  'Starry Night': 'Vincent van Gogh',
-  'The Scream': 'Edvard Munch',
-}
+// const gallery = {
+//   'Mona Lisa': 'Leonardo da Vinci',
+//   'Starry Night': 'Vincent van Gogh',
+//   'The Scream': 'Edvard Munch',
+// }
 
-function updateGallery(objectGallery, nameObject, newZnachenie) {
+// function updateGallery(objectGallery, nameObject, newZnachenie) {
 
-  if (nameObject in gallery){
-    gallery[nameObject] = newZnachenie
-    return gallery[nameObject]
-  } else if (nameObject !== gallery[nameObject]){
-    gallery[nameObject] = newZnachenie
-    return objectGallery[nameObject]
-}
-}
-console.log(updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506'));
-console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'))
-console.log(gallery)
+//   if (nameObject in gallery){
+//     gallery[nameObject] = newZnachenie
+//     return gallery[nameObject]
+//   } else if (nameObject !== gallery[nameObject]){
+//     gallery[nameObject] = newZnachenie
+//     return objectGallery[nameObject]
+// }
+// }
+// console.log(updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506'));
+// console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'))
+// console.log(gallery)

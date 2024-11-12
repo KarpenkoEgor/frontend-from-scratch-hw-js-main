@@ -21,7 +21,7 @@ let game = {
       if(resource in game.resources){
         game.resources[resource] += amount
         return game.resources[resource]
-      } else {
+      } else if(resource !== game.resources){
         return "Invalid resource"
       }
 }
