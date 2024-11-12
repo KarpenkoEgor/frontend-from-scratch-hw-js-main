@@ -37,14 +37,14 @@ const gallery = {
 
 function updateGallery(objectGallery, nameObject, newZnachenie) {
 
-  if (nameObject in objectGallery){
-    objectGallery[nameObject] =  newZnachenie
+  if (nameObject in gallery){
+    gallery[nameObject] = newZnachenie
+    return gallery[nameObject]
+  } else if (nameObject !== gallery[nameObject]){
+    gallery[nameObject] = newZnachenie
     return objectGallery[nameObject]
-  } else {
-    objectGallery[nameObject] = newZnachenie
-  }return objectGallery[nameObject]
 }
-
+}
 console.log(updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506'));
 console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'))
 console.log(gallery)
