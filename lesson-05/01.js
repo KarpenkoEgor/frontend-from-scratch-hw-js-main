@@ -22,7 +22,7 @@ let game = {
         game.resources[resource] += amount
         return game.resources[resource]
       } else {
-        return "Invalid resource"
+        console.log( "Invalid resource")
       }
 }
   }
