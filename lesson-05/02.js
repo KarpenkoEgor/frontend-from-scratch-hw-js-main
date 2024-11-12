@@ -42,7 +42,7 @@ for (const key in gallery) {
     return gallery[key]
   } else {
     objectGallery[nameObject] = newZnachenie
-  }return gallery
+  }return objectGallery[nameObject]
 }
 }
 
