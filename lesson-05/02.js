@@ -37,9 +37,9 @@ const gallery = {
 
 function updateGallery(objectGallery, nameObject, newZnachenie) {
 
-  if (nameObject in gallery){
-    gallery[nameObject] =  newZnachenie
-    return gallery[nameObject]
+  if (nameObject in objectGallery){
+    objectGallery[nameObject] =  newZnachenie
+    return objectGallery[nameObject]
   } else {
     objectGallery[nameObject] = newZnachenie
   }return objectGallery[nameObject]

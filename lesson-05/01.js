@@ -26,7 +26,7 @@ let game = {
       }
 }
   }
-console.log(game.addResource('lumber', 67));
+console.log(game.addResource('gold', 67));
 console.log(game);
 
 
