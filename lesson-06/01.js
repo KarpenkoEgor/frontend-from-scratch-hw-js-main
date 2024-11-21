@@ -23,9 +23,9 @@ const clickButton1 = document.querySelector('#prev-button');
 const clickButton2 = document.querySelector('#next-button');
 
     clickButton1.addEventListener('click', function(){
-      i++
-      if(i>2){
-        i = 0
+      i--
+      if(i<0){
+        i = 2
       }
       const imgD = document.querySelector('#web-tech-image')
         imgD.setAttribute('src', WEB_TECH_IMAGES[i])
@@ -33,9 +33,9 @@ const clickButton2 = document.querySelector('#next-button');
     })
   
     clickButton2.addEventListener('click', function(){
-      i--
-      if(i<0){
-        i = 2
+      i++
+      if(i>2){
+        i = 0
       }
       const imgD = document.querySelector('#web-tech-image')
         imgD.setAttribute('src', WEB_TECH_IMAGES[i])
