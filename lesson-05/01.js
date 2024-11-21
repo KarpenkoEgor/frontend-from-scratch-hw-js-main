@@ -12,20 +12,20 @@
 
 
 
-let game = {
-  resources: {
-    gold: 250,
-    lumber: 100,
-  },
-  addResource(resource, amount) { 
-      if(resource in game.resources){
-        game.resources[resource] += amount
-        return game.resources[resource]
-      } else {
-        console.log( "Invalid resource")
-      }
-}
-  }
+// let game = {
+//   resources: {
+//     gold: 250,
+//     lumber: 100,
+//   },
+//   addResource(resource, amount) { 
+//       if(resource in game.resources){
+//         game.resources[resource] += amount
+//         return game.resources[resource]
+//       } else {
+//         console.log( "Invalid resource")
+//       }
+// }
+//   }
 
 
 
