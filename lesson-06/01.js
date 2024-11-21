@@ -18,7 +18,7 @@ const WEB_TECH_IMAGES = [
   'https://production-it-incubator.s3.eu-central-1.amazonaws.com/file-manager/Image/784380b9-6937-42a6-bdfe-869835820234_html-magic-logo.jpg',
 ]
 
-let i = 0
+let i = 0;
 const clickButton1 = document.querySelector('#prev-button');
 const clickButton2 = document.querySelector('#next-button');
 
@@ -27,9 +27,9 @@ const clickButton2 = document.querySelector('#next-button');
       if(i>2){
         i = 0
       }
-      const imgDenisxui = document.querySelector('img')
-        imgDenisxui.setAttribute('src', WEB_TECH_IMAGES[i])
-        document.img.append(imgDenisxui)
+      const imgD = document.querySelector('#web-tech-image')
+        imgD.setAttribute('src', WEB_TECH_IMAGES[i])
+        // document.img.append(imgD)
     })
   
     clickButton2.addEventListener('click', function(){
@@ -37,7 +37,7 @@ const clickButton2 = document.querySelector('#next-button');
       if(i<0){
         i = 2
       }
-      const imgDenisxui = document.querySelector('img')
-        imgDenisxui.setAttribute('src', WEB_TECH_IMAGES[i])
-        document.img.append(imgDenisxui)
+      const imgD = document.querySelector('#web-tech-image')
+        imgD.setAttribute('src', WEB_TECH_IMAGES[i])
+        // document.img.append(imgD)
     })
