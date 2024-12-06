@@ -7,9 +7,12 @@
 */
 
 // function capitalizeWords(str) {
-// let string = str.split(" ")
-// for (let i = 0; i < string.length; i++) {
-//   string[i] = string[i][0].toUpperCase()+ string[i].slice(1)
+// str.split(" ")
+// let string
+// for (let i = 0; i < str.length; i++) {
+//   string[i] = str.slice(0, str[i].length-6)+str[i][0].toUpperCase()
+  
+//   // string[i] = + (string[i][string[i].length-6]).toLowerCase()
   
 // }
 // return string.join(" ")
